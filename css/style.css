@@ -84,7 +84,7 @@ button {
     position: sticky;
     top: 0;
     z-index: 1000;
-    padding: var(--spacing-sm) 0;
+    padding: 0.75rem 0;
 }
 
 .header .container {
@@ -100,7 +100,7 @@ button {
 }
 
 .logo-image {
-    height: 70px;
+    height: 80px;
     width: auto;
     object-fit: contain;
     display: block;
