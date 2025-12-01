@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "WebFetch(domain:alekseevskoe.com)",
+      "Bash(start index.html)",
+      "Bash(where:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ассортимент - К.Б. Александров</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="К.Б. Александров" class="logo-image">
+                <p class="tagline">Натуральное молочное производство</p>
+            </div>
+            <nav class="nav">
+                <button class="mobile-menu-toggle" aria-label="Меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="assortment.html" class="active">Ассортимент</a></li>
+                    <li><a href="gallery.html">Фотогалерея</a></li>
+                    <li><a href="index.html#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Наш ассортимент</h1>
+            <p>Свежая натуральная молочная продукция каждый день</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <div class="container">
+            <!-- Category Filters -->
+            <div class="product-filters">
+                <button class="filter-btn active" data-category="all">Все продукты</button>
+                <button class="filter-btn" data-category="milk">Молоко</button>
+                <button class="filter-btn" data-category="kefir">Кефир и йогурты</button>
+                <button class="filter-btn" data-category="sour-cream">Сметана</button>
+                <button class="filter-btn" data-category="cottage-cheese">Творог</button>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="products-grid">
+                <!-- Молоко -->
+                <div class="product-card" data-category="milk">
+                    <div class="product-image">
+                        <img src="images/products/Milk-1400 copy.png" alt="Молоко">
+                        <div class="product-badge">Хит продаж</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Молоко</h3>
+                        <p class="product-specs">1.4 л</p>
+                        <p class="product-description">
+                            Натуральное пастеризованное молоко высшего качества.
+                            Отборное сырье, бережная обработка, сохранение всех полезных свойств.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Молоко безлактозное -->
+                <div class="product-card" data-category="milk">
+                    <div class="product-image">
+                        <img src="images/products/AKB-ML1801_BEZLAKT_Tetra.png" alt="Молоко безлактозное">
+                    </div>
+                    <div class="product-info">
+                        <h3>Молоко безлактозное</h3>
+                        <p class="product-specs">1.8 л</p>
+                        <p class="product-description">
+                            Молоко для тех, кто следит за здоровьем. Без лактозы, с сохранением всех полезных свойств молока.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Молоко в упаковке -->
+                <div class="product-card" data-category="milk">
+                    <div class="product-image">
+                        <img src="images/products/AKB_ML3201_Tetra.png" alt="Молоко 3.2%">
+                    </div>
+                    <div class="product-info">
+                        <h3>Молоко 3.2%</h3>
+                        <p class="product-specs">Тетра-пак</p>
+                        <p class="product-description">
+                            Классическое молоко в удобной упаковке. Идеально для всей семьи.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Сливки -->
+                <div class="product-card" data-category="sour-cream">
+                    <div class="product-image">
+                        <img src="images/products/03-33-SLIVKI_Tetra_BEL.png" alt="Сливки">
+                    </div>
+                    <div class="product-info">
+                        <h3>Сливки</h3>
+                        <p class="product-specs">33%</p>
+                        <p class="product-description">
+                            Натуральные сливки для кофе, десертов и выпечки. Густые и ароматные.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Сметана 15% -->
+                <div class="product-card" data-category="sour-cream">
+                    <div class="product-image">
+                        <img src="images/products/ALEXANDROV_SM15_ 300.png" alt="Сметана 15%">
+                        <div class="product-badge">Хит продаж</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Сметана</h3>
+                        <p class="product-specs">15%, 300г</p>
+                        <p class="product-description">
+                            Нежная сметана классической жирности. Отлично подходит для заправки салатов и приготовления соусов.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Сметана 15% 200г -->
+                <div class="product-card" data-category="sour-cream">
+                    <div class="product-image">
+                        <img src="images/products/ALEXANDROV_SM15_200.png" alt="Сметана 15%">
+                    </div>
+                    <div class="product-info">
+                        <h3>Сметана</h3>
+                        <p class="product-specs">15%, 200г</p>
+                        <p class="product-description">
+                            Нежная сметана в удобной упаковке. Идеально для небольшой семьи.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Сметана 20% -->
+                <div class="product-card" data-category="sour-cream">
+                    <div class="product-image">
+                        <img src="images/products/ALEXANDROV_SM20_ 300.png" alt="Сметана 20%">
+                    </div>
+                    <div class="product-info">
+                        <h3>Сметана</h3>
+                        <p class="product-specs">20%, 300г</p>
+                        <p class="product-description">
+                            Густая сметана с насыщенным вкусом. Отлично подходит для выпечки.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Сметана 22% -->
+                <div class="product-card" data-category="sour-cream">
+                    <div class="product-image">
+                        <img src="images/products/ALEXANDROV_SM22_200.png" alt="Сметана 22%">
+                    </div>
+                    <div class="product-info">
+                        <h3>Сметана домашняя</h3>
+                        <p class="product-specs">22%, 200г</p>
+                        <p class="product-description">
+                            Густая сметана повышенной жирности как из деревни. Насыщенный сливочный вкус.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Творог -->
+                <div class="product-card" data-category="cottage-cheese">
+                    <div class="product-image">
+                        <img src="images/products/Tvorog copy.png" alt="Творог">
+                    </div>
+                    <div class="product-info">
+                        <h3>Творог</h3>
+                        <p class="product-specs">Классический</p>
+                        <p class="product-description">
+                            Зернистый творог традиционного приготовления. Богат белком и кальцием.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Творог в капельке -->
+                <div class="product-card" data-category="cottage-cheese">
+                    <div class="product-image">
+                        <img src="images/products/AKB_TVOROG_Kapelka copy.png" alt="Творог">
+                    </div>
+                    <div class="product-info">
+                        <h3>Творог</h3>
+                        <p class="product-specs">В удобной упаковке</p>
+                        <p class="product-description">
+                            Нежный творог в удобной упаковке. Идеален для здорового питания.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Творожное -->
+                <div class="product-card" data-category="cottage-cheese">
+                    <div class="product-image">
+                        <img src="images/products/ALEXANDROV_TVOROJENOE_BOX copy.png" alt="Творожное">
+                    </div>
+                    <div class="product-info">
+                        <h3>Творожное</h3>
+                        <p class="product-specs">Десертное</p>
+                        <p class="product-description">
+                            Нежное творожное лакомство. Прекрасно подходит для детского питания.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Йогурт банан -->
+                <div class="product-card" data-category="kefir">
+                    <div class="product-image">
+                        <img src="images/products/Yogurt_Bottle BANAN.png" alt="Йогурт банановый">
+                        <div class="product-badge">Новинка</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Йогурт банановый</h3>
+                        <p class="product-specs">Питьевой</p>
+                        <p class="product-description">
+                            Натуральный питьевой йогурт с банановым вкусом. Содержит живые бифидобактерии.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Йогурт лаванда -->
+                <div class="product-card" data-category="kefir">
+                    <div class="product-image">
+                        <img src="images/products/Yogurt_Bottle Lavander.png" alt="Йогурт лавандовый">
+                        <div class="product-badge">Новинка</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Йогурт лавандовый</h3>
+                        <p class="product-specs">Питьевой</p>
+                        <p class="product-description">
+                            Уникальный йогурт с экстрактом лаванды. Полезный и вкусный.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Йогурт с орехами -->
+                <div class="product-card" data-category="kefir">
+                    <div class="product-image">
+                        <img src="images/products/Yogurt_Bottle Nuts.png" alt="Йогурт с орехами">
+                    </div>
+                    <div class="product-info">
+                        <h3>Йогурт с орехами</h3>
+                        <p class="product-specs">Питьевой</p>
+                        <p class="product-description">
+                            Питьевой йогурт с орехами. Идеален для перекуса и завтрака.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Масло 82.5% -->
+                <div class="product-card" data-category="milk">
+                    <div class="product-image">
+                        <img src="images/products/05-AKB_BUT_82-5_ECOLEAN copy.png" alt="Масло сливочное">
+                    </div>
+                    <div class="product-info">
+                        <h3>Масло сливочное</h3>
+                        <p class="product-specs">82.5%</p>
+                        <p class="product-description">
+                            Натуральное сливочное масло. Идеально для бутербродов и выпечки.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Сыр -->
+                <div class="product-card" data-category="milk">
+                    <div class="product-image">
+                        <img src="images/products/02-AKB_FlowPack_CHEESE_VIEW2 copy.png" alt="Сыр">
+                    </div>
+                    <div class="product-info">
+                        <h3>Сыр</h3>
+                        <p class="product-specs">Твердый</p>
+                        <p class="product-description">
+                            Натуральный твердый сыр. Отличный вкус и высокое качество.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Пармезан -->
+                <div class="product-card" data-category="milk">
+                    <div class="product-image">
+                        <img src="images/products/AKB_Parmesan copy.png" alt="Пармезан">
+                    </div>
+                    <div class="product-info">
+                        <h3>Пармезан</h3>
+                        <p class="product-specs">Тертый</p>
+                        <p class="product-description">
+                            Натуральный пармезан. Идеален для пасты и салатов.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Паста Фузилли -->
+                <div class="product-card" data-category="milk">
+                    <div class="product-image">
+                        <img src="images/products/AKB_PASTA _BOX FUSILLI.png" alt="Паста Фузилли">
+                    </div>
+                    <div class="product-info">
+                        <h3>Паста Фузилли</h3>
+                        <p class="product-specs">Высшего сорта</p>
+                        <p class="product-description">
+                            Качественная паста из твердых сортов пшеницы.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Паста Пенне -->
+                <div class="product-card" data-category="milk">
+                    <div class="product-image">
+                        <img src="images/products/AKB_PASTA _BOX PENNE.png" alt="Паста Пенне">
+                    </div>
+                    <div class="product-info">
+                        <h3>Паста Пенне</h3>
+                        <p class="product-specs">Высшего сорта</p>
+                        <p class="product-description">
+                            Классическая паста пенне из качественной пшеницы.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Гречка -->
+                <div class="product-card" data-category="milk">
+                    <div class="product-image">
+                        <img src="images/products/022-AKB_GRECHKA copy.png" alt="Гречка">
+                    </div>
+                    <div class="product-info">
+                        <h3>Гречка</h3>
+                        <p class="product-specs">Ядрица</p>
+                        <p class="product-description">
+                            Отборная гречневая крупа. Полезный гарнир для всей семьи.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Мука -->
+                <div class="product-card" data-category="milk">
+                    <div class="product-image">
+                        <img src="images/products/092-AKB_MUKA copy.png" alt="Мука">
+                    </div>
+                    <div class="product-info">
+                        <h3>Мука пшеничная</h3>
+                        <p class="product-specs">Высший сорт</p>
+                        <p class="product-description">
+                            Мука высшего сорта для выпечки. Отличное качество.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Тушенка говядина -->
+                <div class="product-card" data-category="milk">
+                    <div class="product-image">
+                        <img src="images/products/AKB_TUSHENKA_CAN COW.png" alt="Тушенка говяжья">
+                    </div>
+                    <div class="product-info">
+                        <h3>Тушенка говяжья</h3>
+                        <p class="product-specs">Высший сорт</p>
+                        <p class="product-description">
+                            Натуральная говяжья тушенка. Отличный продукт для быстрого обеда.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Тушенка свинина -->
+                <div class="product-card" data-category="milk">
+                    <div class="product-image">
+                        <img src="images/products/AKB_TUSHENKA_CAN PIG.png" alt="Тушенка свиная">
+                    </div>
+                    <div class="product-info">
+                        <h3>Тушенка свиная</h3>
+                        <p class="product-specs">Высший сорт</p>
+                        <p class="product-description">
+                            Натуральная свиная тушенка. Для тех, кто ценит качество.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Детское питание курица -->
+                <div class="product-card" data-category="milk">
+                    <div class="product-image">
+                        <img src="images/products/01-ALEXANDROV_DETPIT_GLASS-Chiken.png" alt="Детское питание курица">
+                    </div>
+                    <div class="product-info">
+                        <h3>Детское питание</h3>
+                        <p class="product-specs">Курица</p>
+                        <p class="product-description">
+                            Натуральное детское питание из курицы. Для малышей с 6 месяцев.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Детское питание кролик -->
+                <div class="product-card" data-category="milk">
+                    <div class="product-image">
+                        <img src="images/products/01-ALEXANDROV_DETPIT_GLASS-Rabbit.png" alt="Детское питание кролик">
+                    </div>
+                    <div class="product-info">
+                        <h3>Детское питание</h3>
+                        <p class="product-specs">Кролик</p>
+                        <p class="product-description">
+                            Гипоаллергенное детское питание из кролика. Для малышей с 6 месяцев.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Детское питание индейка -->
+                <div class="product-card" data-category="milk">
+                    <div class="product-image">
+                        <img src="images/products/01-ALEXANDROV_DETPIT_GLASS-Turkey.png" alt="Детское питание индейка">
+                    </div>
+                    <div class="product-info">
+                        <h3>Детское питание</h3>
+                        <p class="product-specs">Индейка</p>
+                        <p class="product-description">
+                            Диетическое детское питание из индейки. Для малышей с 6 месяцев.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Хотите стать нашим партнером?</h2>
+            <p>Свяжитесь с нами для обсуждения условий сотрудничества</p>
+            <a href="index.html#contacts" class="btn btn-primary">Связаться с нами</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>К.Б. Александров</h3>
+                    <p>Натуральное молочное производство</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="assortment.html">Ассортимент</a></li>
+                        <li><a href="gallery.html">Фотогалерея</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p>Телефон: <a href="tel:+70000000000">+7 (000) 000-00-00</a></p>
+                    <p>Email: <a href="mailto:info@kb-alexandrov.ru">info@kb-alexandrov.ru</a></p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+                        <a href="#" aria-label="VK"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M15.684 0H8.316C1.592 0 0 1.592 0 8.316v7.368C0 22.408 1.592 24 8.316 24h7.368C22.408 24 24 22.408 24 15.684V8.316C24 1.592 22.408 0 15.684 0zm3.692 17.123h-1.744c-.66 0-.864-.525-2.05-1.727-1.033-1-1.49-1.135-1.744-1.135-.356 0-.458.102-.458.593v1.575c0 .424-.135.678-1.253.678-1.846 0-3.896-1.118-5.335-3.202C4.624 10.857 4.03 8.57 4.03 8.096c0-.254.102-.491.593-.491h1.744c.44 0 .61.203.78.677.863 2.49 2.303 4.675 2.896 4.675.22 0 .322-.102.322-.66V9.721c-.068-1.186-.695-1.287-.695-1.71 0-.203.17-.406.44-.406h2.744c.373 0 .508.203.508.643v3.473c0 .372.169.508.271.508.22 0 .407-.136.813-.542 1.254-1.406 2.151-3.574 2.151-3.574.119-.254.322-.491.763-.491h1.744c.525 0 .644.27.525.643-.22 1.017-2.354 4.031-2.354 4.031-.186.305-.254.44 0 .78.186.254.796.78 1.203 1.253.745.847 1.32 1.558 1.473 2.05.17.49-.085.744-.576.744z"/></svg></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 К.Б. Александров. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/products.js"></script>
+</body>
+</html>

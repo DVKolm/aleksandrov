@@ -1,0 +1,17 @@
+{
+  "name": "kb-alexandrov-website",
+  "version": "1.0.0",
+  "description": "Website for K.B. Alexandrov dairy company",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 8000 -o",
+    "dev": "http-server -p 8000",
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": ["website", "dairy", "milk", "alexandrov"],
+  "author": "K.B. Alexandrov",
+  "private": true,
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
